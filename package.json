@@ -1,0 +1,26 @@
+{
+  "name": "cloudwasher",
+  "version": "1.0.0",
+  "description": "Wash your Cloudinary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickwanhere/cloudwasher.git"
+  },
+  "keywords": [
+    "cloudinary",
+    "clean"
+  ],
+  "author": "Nick Wan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickwanhere/cloudwasher/issues"
+  },
+  "homepage": "https://github.com/nickwanhere/cloudwasher#readme",
+  "devDependencies": {
+    "cloudinary": "^1.2.6"
+  }
+}

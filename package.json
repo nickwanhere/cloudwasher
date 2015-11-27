@@ -4,7 +4,8 @@
   "description": "Wash your Cloudinary",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard",
+    "test": "node test/my-tests.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/nickwanhere/cloudwasher#readme",
   "devDependencies": {
-    "cloudinary": "^1.2.6"
+    "cloudinary": "^1.2.6",
+    "standard": "^5.4.1"
   }
 }

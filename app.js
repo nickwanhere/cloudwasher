@@ -16,7 +16,7 @@ var cursor = '';
 
 var CronJob = require('cron').CronJob;
 var job = new CronJob({
-  cronTime: '*/20 * * * * *',
+  cronTime: '*/5 * * * * *',
   onTick: function() {
     
 
